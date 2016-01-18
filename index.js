@@ -3,7 +3,7 @@
  * @param {varType} tagName Description
  * @return {void} description
  */
-function ua(days, tagName, callback) {
+function userAction(days, tagName, callback) {
   var tagName = tagName || 'useraction',
     days = days || 1;
   try {
